@@ -3,8 +3,8 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import Lottie from 'lottie-react';
-import heroAnimation from '@/public/lottie/web.json';
-import innovationAnimation from '@/public/lottie/build.json';
+import heroAnimation from '../public/lottie/web.json';
+import innovationAnimation from '../public/lottie/build.json';
 
 export default function Home() {
   return (
