@@ -1,12 +1,5 @@
 import './globals.css';
-import { Press_Start_2P } from 'next/font/google';
 import Head from "next/head";
-
-const pressStart2P = Press_Start_2P({
-  weight: '400',
-  subsets: ['latin'],
-  display: 'swap',
-});
 
 export const metadata = {
   title: 'Pexmon LTD - Innovating Digital Solutions',
@@ -22,7 +15,7 @@ export default function RootLayout({ children }) {
       <Head>
         <link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
-      <body className={`${pressStart2P.className} bg-black text-white`}>{children}</body>
+      <body className={`bg-black text-white`}>{children}</body>
     </html>
   );
 }
