@@ -57,7 +57,7 @@ export default function Home() {
       <motion.section className="min-h-screen flex flex-col items-center justify-center bg-gray-900 text-white px-6"
         initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
         <h2 className="text-3xl font-bold">Get in Touch</h2>
-        <p className="text-md mt-4">Let's build something amazing together.</p>
+        <p className="text-md mt-4">Let&apos;s build something amazing together.</p>
         <p className="text-lg mt-2 font-semibold">Email: <a href="mailto:ezragach@pexmon.one" className="underline">ezragach@pexmon.one</a></p>
       </motion.section>
     </main>
