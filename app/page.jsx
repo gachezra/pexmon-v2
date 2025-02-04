@@ -64,7 +64,7 @@ export default function Home() {
   );
 }
 
-function ProjectSection({ title, description, bgColor, textColor, link }: any) {
+function ProjectSection({ title, description, bgColor, textColor, link }) {
   return (
     <motion.section
       className={`${bgColor} ${textColor} min-h-screen flex flex-col items-center justify-center px-6`}
