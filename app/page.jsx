@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import Lottie from 'lottie-react';
+import LottieClient from '../components/lottieClient';
 import heroAnimation from '../public/lottie/web.json';
 import innovationAnimation from '../public/lottie/build.json';
 
@@ -12,7 +12,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="flex flex-col items-center justify-center min-h-screen text-center px-6">
         <motion.div animate={{ y: [-10, 10] }} transition={{ repeat: Infinity, duration: 2 }}>
-          <Lottie animationData={heroAnimation} className="w-48 h-48" />
+          <LottieClient animationData={heroAnimation} className="w-48 h-48" />
         </motion.div>
         <h1 className="text-4xl md:text-6xl font-bold mt-6">Pexmon LTD</h1>
         <p className="text-lg mt-4 max-w-2xl">
@@ -27,7 +27,7 @@ export default function Home() {
         <p className="text-md max-w-3xl text-center mt-4">
           Pexmon LTD is a software company based in Kenya, specializing in cutting-edge web and mobile applications. Our goal is to push technological boundaries and deliver excellence.
         </p>
-        <Lottie animationData={innovationAnimation} className="w-50 h-50" />
+        <LottieClient animationData={innovationAnimation} className="w-50 h-50" />
       </motion.section>
 
       {/* Projects Section */}
