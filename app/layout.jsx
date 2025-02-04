@@ -1,4 +1,5 @@
 import './globals.css';
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata = {
   title: 'Pexmon LTD - Innovating Digital Solutions',
@@ -11,7 +12,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`bg-black text-white`}>{children}</body>
+      <body className={`bg-black text-white`}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
