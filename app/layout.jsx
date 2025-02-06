@@ -1,6 +1,6 @@
 import './globals.css';
 import { Analytics } from "@vercel/analytics/react";
-import { Press_Start_2P, Roboto, Lato } from '@next/font/google';
+import { Press_Start_2P, Roboto, Lato } from 'next/font/google';
 
 const fonts = [
   Press_Start_2P({ weight: '400', subsets: ['latin'], display: 'swap' }),
