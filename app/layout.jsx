@@ -2,12 +2,11 @@ import './globals.css';
 import { Analytics } from "@vercel/analytics/react";
 import { Press_Start_2P, Roboto, Lato } from 'next/font/google';
 
-const fonts = [
-  Press_Start_2P({ weight: '400', subsets: ['latin'], display: 'swap' }),
-  Roboto({ weight: '400', subsets: ['latin'], display: 'swap' }),
-  Lato({ weight: '400', subsets: ['latin'], display: 'swap' })
-];
+const pressStart2P = Press_Start_2P({ weight: '400', subsets: ['latin'], display: 'swap' });
+const roboto = Roboto({ weight: '400', subsets: ['latin'], display: 'swap' });
+const lato = Lato({ weight: '400', subsets: ['latin'], display: 'swap' });
 
+const fonts = [pressStart2P, roboto, lato];
 const randomFont = fonts[Math.floor(Math.random() * fonts.length)];
 
 export const metadata = {
