@@ -9,7 +9,7 @@ import {
   Creepster,
   Comic_Neue,
   Unbounded
-} from '@next/font/google';
+} from 'next/font/google';
 
 // Initialize all fonts
 const pressStart2P = Press_Start_2P({ 
